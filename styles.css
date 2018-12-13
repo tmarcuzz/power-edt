@@ -1,0 +1,41 @@
+.input-block.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name {
+    background: none;
+    border: none;
+    border-bottom: solid 1px white;
+    color: white;
+    margin-left: 10px;
+    outline: none;
+    text-align: right;
+}
+
+#name.empty {
+    border-bottom: solid red 1px;
+}
+
+.input-block.checkbox {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+}
+
+button, checkbox {
+    cursor: pointer;
+}
+
+form {
+    background: #4C829B;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: fit-content;
+    width: -moz-fit-content;
+}

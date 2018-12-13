@@ -1,0 +1,17 @@
+{
+    "extension_name": {
+        "message": "Power EDT"
+    },
+    "extension_description": {
+        "message": "Automatically select your name on Edt."
+    },
+    "automatically_validate_year": {
+        "message": "Automatically validate year"
+    },
+    "name_label": {
+        "message": "Name"
+    },
+    "save": {
+        "message": "Save"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
+    "version": "0.1.0",
+    "permissions": ["tabs", "*://edt.telecom-bretagne.eu/*", "storage"],
+    "content_scripts": [
+        {
+            "matches": ["*://edt.telecom-bretagne.eu/*"],
+            "js": [
+                "utils/storage.js",
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "default_locale": "en",
+    "icons": {
+        "48": "icons/icon48.png",
+       "128": "icons/icon128.png"
+    }
+  }
